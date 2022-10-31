@@ -1,7 +1,7 @@
 import { context, u128, PersistentVector } from "near-sdk-as";
 
 // If the user attaches more than 0.01N the message is premium
-const PREMIUM_PRICE = u128.from('10000000000000000000000')
+const PREMIUM_PRICE = u128.from('30000000000000000000000')
 
 /** 
  * Exporting a new class PostedMessage so it can be used outside of this file.
